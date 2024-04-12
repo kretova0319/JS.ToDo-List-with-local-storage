@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1>Планировщик задач</h1>
+      <div class="task container">
+        <h2>Добавить задачу</h2>
+
+        <form name="myForm" class="input" action="/">
+          <input
+            type="text"
+            name="myName"
+            id="myName"
+            placeholder="Введите задачу"
+          />
+          <button class="btn" id="taskbtn">Добавить</button>
+        </form>
+      </div>
+      <div class="list container">
+        <h2>Список задач</h2>
+        <p id="notask" class="notask">Нет задач</p>
+        <div class="info">
+          <!-- <div class="info_main"> - Создаем эту структуру в JS
+            <span class="listitem">Почитать</span>
+            <input type="checkbox" />
+          </div>
+          <div class="info_main">
+            <span class="listitem">Пройти 10 тыс шагов</span>
+            <input type="checkbox" />
+          </div> -->
+        </div>
+        <div class="clean">
+          <button class="btn" id="listbtn" disabled>
+            Очистить список задач
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="week18_2.js"></script>
+  </body>
+</html>

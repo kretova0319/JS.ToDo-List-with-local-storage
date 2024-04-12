@@ -1,0 +1,76 @@
+body {
+  font-size: 20px;
+  width: 1100px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #cbdfe7;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+.container {
+  padding: 40px 100px 40px 50px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: hsl(207, 57%, 60%);
+  color: white;
+  width: 25%;
+  padding: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.clean {
+  display: flex;
+  justify-content: end;
+}
+.notask {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 25px;
+  font-weight: lighter;
+}
+#listbtn:disabled,
+.notask {
+  opacity: 0.5;
+}
+.info_main {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+.listitem {
+  margin-right: 200px;
+}
